@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* sh_accordion style */
+
+.sh_accordion .sh_accordion_item{
+	margin-bottom:15px;
+}
+
+.sh_accordion .sh_accordion_item .sh_accordion_head{
+	background-color:#656565;
+	position:relative;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+.sh_accordion .sh_accordion_item .sh_accordion_title{
+	padding:10px 10px;
+	color:#FFF;		
+	width:85%;
+}
+
+.sh_accordion .sh_accordion_item .sh_accordion_body{
+	padding:10px;
+	display:none;
+}
+
+.sh_accordion .sh_accordion_item .sh_accordion_control{
+	position:absolute;
+	padding:2px 5px;
+	right:15px;
+	top:50%;
+	transform: translateY(-50%);
+	font-size:20px;
+	color:#FFF;
+	font-weight:800;
+	width:25px;
+	text-align:center;
+	background-color:#4F4F4F;
+	cursor:pointer;
+	border-radius:5px;
+}
